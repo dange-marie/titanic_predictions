@@ -1,0 +1,43 @@
+🧭 Exploration des données du Titanic – Synthèse des observations
+🧬 Relation avec la variable cible (Survived)
+Être une femme augmente significativement les chances de survie.
+
+Avoir des liens familiaux à bord (frères/soeurs, parents/enfants) augmente aussi les chances de survie, particulièrement chez les femmes.
+
+Ce lien familial est également positif pour les hommes, mais l’effet est nettement plus marqué chez les femmes.
+
+Le port d’embarquement Cherbourg (C) est associé à un taux de survie plus élevé que les autres.
+Toutefois, le sexe reste un facteur déterminant : par exemple, une femme ayant embarqué à Southampton (S) a plus de chances de survivre qu’un homme venant de Cherbourg.
+
+Cela s’explique en partie par le lien entre classe et port d’embarquement : la plupart des passagers de 1re classe embarquent à Cherbourg, alors que ceux de 3e classe viennent principalement de Queenstown (Q) et Southampton.
+
+La classe sociale (Pclass) influence fortement la survie : plus on descend dans la hiérarchie sociale, plus le taux de survie diminue.
+Néanmoins, une femme en 3e classe a encore plus de chances de survivre qu’un homme en 1re classe.
+
+En ce qui concerne l’âge, les enfants et les personnes âgées semblent avoir un meilleur taux de survie que les adultes d'âge moyen.
+
+📊 Distributions des variables
+Pclass : plus de passagers en 3e classe, suivis de la 1re, puis de la 2e.
+
+Survived : plus de décès que de survivants.
+
+Sex : majorité d’hommes.
+
+Age : concentration entre 20 et 40 ans, moins de jeunes enfants et de personnes âgées.
+
+SibSp et Parch : la majorité des passagers sont seuls à bord (0), quelques-uns avec 1, très peu avec plus.
+
+Embarked : la majorité des passagers viennent de Southampton (S), puis Cherbourg (C) et enfin Queenstown (Q).
+
+Fare : la majorité des billets se situent entre 10 et 20 unités monétaires. La distribution montre un pic puis une décroissance progressive.
+
+🧩 Difficultés et réflexions en cours
+La colonne Ticket est difficile à interpréter, en raison de son format variable et d’un manque de documentation sur sa nomenclature. Une recherche plus poussée est envisagée.
+
+Ticket, Name et Fare présentent une forte cardinalité, rendant leur analyse directe via des graphes peu efficace.
+
+La lecture du graphique de Fare est complexe à cause de sa distribution asymétrique.
+
+Prochaine étape : nettoyage, encodage et imputation des données manquantes, avant d’aborder le feature engineering plus avancé.
+
+
