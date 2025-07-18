@@ -33,12 +33,12 @@ Predict whether a passenger survived the Titanic disaster based on personal char
    cd titanic-kaggle
 Install dependencies:
 
-bash
+```bash
 Copy
 Edit
 pip install -r requirements.txt
 Launch the notebook:
-
+```
 Use Jupyter Notebook or VS Code to open and run titanic_model.ipynb
 
 📈 Next Steps
