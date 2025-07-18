@@ -8,7 +8,6 @@ Predict whether a passenger survived the Titanic disaster based on personal char
 
 ## 📊 Kaggle Score
 - ✅ Public score: **0.76555**
-- 🔼 Improvement over previous score (0.76315) — consistent progress!
 
 ## 🧠 Model Used
 - Main model: **XGBoost Classifier**
@@ -23,8 +22,8 @@ Predict whether a passenger survived the Titanic disaster based on personal char
 - (Planned) `FamilySize` and `IsAlone` features
 
 ## 📂 Files
-- `titanic_model.ipynb`: full notebook including preprocessing, feature engineering, training, and submission
-- `submission.csv`: final submission file
+- `src/titanic_model.ipynb`: full notebook including preprocessing, feature engineering, training, and submission
+- `output/submission.csv`: final submission file
 - `README.md`: this file
 
 ## 🔧 How to Run
@@ -49,20 +48,6 @@ Create FamilySize and IsAlone features
 
 Try model stacking (XGBoost + Random Forest + Logistic Regression)
 
-👤 Author
-dange — Data scientist & computer science enthusiast
-
-📬 [angelodsu22@gmail.com]
-
-🔗 Useful Links
-🔗 Kaggle Competition
-
-📘 XGBoost Documentation
-
-yaml
-Copy
-Edit
-
 ---
 
 ## 📦 Basic `requirements.txt` (recommended)
@@ -82,3 +67,9 @@ bash
 Copy
 Edit
 pip install -r requirements.txt
+```
+
+👤 Author
+dange — Data scientist & computer science enthusiast
+
+📬 [angelodsu22@gmail.com]
